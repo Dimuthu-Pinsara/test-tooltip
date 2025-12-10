@@ -19,9 +19,8 @@ export default function Tooltip({...props}) {
     <div
         className="tipnix"
         {...props}
-        style={{ marginTop: 30 }}
       >
-        <span>Hover me (Next Pages)</span>
+        {props.children}
       </div>
   )
 }
